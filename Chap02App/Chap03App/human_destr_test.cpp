@@ -30,6 +30,8 @@ public:
 
 int main()
 {
-	Human boy("±èÅÂ°ü±èÀ¯Áö", 15);
+	//Human boy("±èÅÂ°ü", 15);
+	Human boy = { "±èÅÂ°ü",15 };
+
 	boy.intro();
 }
