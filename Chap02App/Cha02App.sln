@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chap02App", "..\Chap02App\Chap02App\Chap02App.vcxproj", "{175CF71B-501A-4C62-B0C5-C5481DAD6784}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chap02App", "Chap02App\Chap02App.vcxproj", "{175CF71B-501A-4C62-B0C5-C5481DAD6784}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chap03App", "..\Chap02App\Chap03App\Chap03App.vcxproj", "{3778A2AF-70A4-4468-8BED-15A59A5C46A7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chap03App", "Chap03App\Chap03App.vcxproj", "{3778A2AF-70A4-4468-8BED-15A59A5C46A7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chap04App", "..\Chap02App\Chap04App\Chap04App.vcxproj", "{5B18225D-326C-4D67-BF09-9A586761E780}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chap04App", "Chap04App\Chap04App.vcxproj", "{5B18225D-326C-4D67-BF09-9A586761E780}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,6 +46,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {756A90F5-DF1E-43DB-9767-A4DD79ADF385}
+		SolutionGuid = {1AED7AC7-1472-4605-8379-5497725CF1C6}
 	EndGlobalSection
 EndGlobal
