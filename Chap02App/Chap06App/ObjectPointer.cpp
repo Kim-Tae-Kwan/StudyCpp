@@ -49,4 +49,4 @@ int main()
 	pS = (Student*)&h;
 	pH->intro();
 }
-
+
