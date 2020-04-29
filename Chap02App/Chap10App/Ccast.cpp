@@ -11,7 +11,6 @@ int main()
 	pi = static_cast<int*>(str);
 	pi = (int*)str;
 
-
 	pi = (int*)str;
 	printf("%d %x\n", *pi, *pi);
 
