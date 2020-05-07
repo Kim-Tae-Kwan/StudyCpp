@@ -11,7 +11,7 @@ public:
 	{
 		printf("%d:%d:%d\n", hour, min, sec);
 	}
-	const Time AddTime(const Time& other) const {
+	const Time operator +(const Time&  other) const {
 		Time t;
 		t.sec = sec + other.sec;
 		t.min = min + other.min;
@@ -30,9 +30,11 @@ int main()
 	Time t1(1, 10, 30);
 	Time t2(2, 20, 40);
 	Time t3;
+	Time t4;
 	t1.OutTime();
 	t2.OutTime();
 
-	t3 = t1.AddTime(t2);
+	t3 = t1+t2;
+	t4 = t3+t3;
 	t3.OutTime();
 }
