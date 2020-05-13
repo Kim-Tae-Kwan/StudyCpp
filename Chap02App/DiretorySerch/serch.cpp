@@ -19,12 +19,12 @@ void main()
     long handle;
     int result = 1;
 
-    handle = _findfirst("D:\\DEV\\*.txt", &fd);  //현재 폴더 내 모든 파일을 찾는다.
+    handle = _findfirst("C:\\DEV\\*.txt", &fd);  //현재 폴더 내 모든 파일을 찾는다.
     while (1) {
         if (handle == -1)
         {
             printf("There were no files.\n");
-            return;
+            break;
         }
 
         while (result != -1)
