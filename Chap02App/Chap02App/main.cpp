@@ -11,5 +11,7 @@ int main()
 	now.SetTime(15, 22, 10);
 	now.outTime();
 
+	//¡÷ºÆ.
+
 	return 0;
 }
